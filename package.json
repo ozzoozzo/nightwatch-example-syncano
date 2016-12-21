@@ -1,0 +1,17 @@
+{
+  "name": "nightwatch-example-syncano",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "e2e-setup": "selenium-standalone install",
+    "e2e-start": "selenium-standalone start"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nightwatch": "^0.9.9",
+    "selenium-standalone": "^5.9.0"
+  }
+}
